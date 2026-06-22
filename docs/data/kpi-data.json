@@ -1,0 +1,53 @@
+{
+  "periods": {
+    "7": {
+      "tridot": {
+        "signups": 350,
+        "paid": 46,
+        "cancelled": 5
+      },
+      "rundot": {
+        "signups": 50,
+        "paid": 8,
+        "cancelled": 0
+      },
+      "deal_count": 400,
+      "hasFullData": false,
+      "daysBack": 7
+    },
+    "14": {
+      "tridot": {
+        "signups": 350,
+        "paid": 46,
+        "cancelled": 5
+      },
+      "rundot": {
+        "signups": 50,
+        "paid": 8,
+        "cancelled": 0
+      },
+      "deal_count": 400,
+      "hasFullData": false,
+      "daysBack": 14
+    },
+    "30": {
+      "tridot": {
+        "signups": 350,
+        "paid": 46,
+        "cancelled": 5
+      },
+      "rundot": {
+        "signups": 50,
+        "paid": 8,
+        "cancelled": 0
+      },
+      "deal_count": 400,
+      "hasFullData": false,
+      "daysBack": 30
+    }
+  },
+  "fetchedAt": "2026-06-22T04:51:41.383021+00:00",
+  "dataFrom": "2026-06-17T11:04:00Z",
+  "dataThrough": "2026-06-22T04:21:00Z",
+  "totalDealsInCache": 400
+}
