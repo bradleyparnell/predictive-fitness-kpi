@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "refreshedAt": "2026-09-17T20:03:48+00:00",
+    "windowStart": "2026-07-23",
+    "windowEnd": "2026-09-13",
+    "source": "LevelField promotions analytics, all filters cleared, joined to the Ambassador Challenge sign up form by referral code"
+  },
+  "kpis": {
+    "signedUp": 68,
+    "linksIssued": 58,
+    "activeSharers": 10,
+    "leads": 27,
+    "leadsOnAmbassadorPromo": 24,
+    "activations": null
+  },
+  "inactiveWithLink": 48,
+  "leaderboard": [
+    {
+      "name": "Jack Lucas",
+      "brand": "Both",
+      "code": "7XI1R1",
+      "linkSent": "Yes",
+      "leads": 8,
+      "firstActivity": "2026-08-26",
+      "lastActivity": "2026-09-11",
+      "rank": 1
+    },
+    {
+      "name": "Chris Navin",
+      "brand": "Both",
+      "code": "TD2L3T",
+      "linkSent": "Yes",
+      "leads": 6,
+      "firstActivity": "2026-08-18",
+      "lastActivity": "2026-09-08",
+      "rank": 2
+    },
+    {
+      "name": "Francisco Madrigal",
+      "brand": "TriDot",
+      "code": "UKKEU8",
+      "linkSent": "Yes",
+      "leads": 4,
+      "firstActivity": "2026-07-23",
+      "lastActivity": "2026-08-17",
+      "rank": 3
+    },
+    {
+      "name": "Dawn Winterhalt",
+      "brand": "TriDot",
+      "code": "MBCEC",
+      "linkSent": "Yes",
+      "leads": 2,
+      "firstActivity": "2026-08-17",
+      "lastActivity": "2026-09-08",
+      "rank": 4
+    },
+    {
+      "name": "Marisa Fortin",
+      "brand": "TriDot",
+      "code": "3VYL3",
+      "linkSent": "Yes",
+      "leads": 2,
+      "firstActivity": "2026-08-30",
+      "lastActivity": "2026-09-03",
+      "rank": 5
+    },
+    {
+      "name": "Julie Malloy",
+      "brand": "RunDot",
+      "code": "P9XREE",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-09-08",
+      "lastActivity": "2026-09-08",
+      "rank": 6
+    },
+    {
+      "name": "J\u00e9r\u00f4me Streiff",
+      "brand": "TriDot",
+      "code": "LQMVC2",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-08-17",
+      "lastActivity": "2026-08-17",
+      "rank": 7
+    },
+    {
+      "name": "Lindsay Pappas",
+      "brand": "TriDot",
+      "code": "HWEYQA",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-08-17",
+      "lastActivity": "2026-08-17",
+      "rank": 8
+    },
+    {
+      "name": "Nuno Aguiar",
+      "brand": "RunDot",
+      "code": "DNFCZJ",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-09-13",
+      "lastActivity": "2026-09-13",
+      "rank": 9
+    },
+    {
+      "name": "Walter Cahall",
+      "brand": "Not set",
+      "code": "4V1DI1",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-08-20",
+      "lastActivity": "2026-08-20",
+      "rank": 10
+    }
+  ]
+}
