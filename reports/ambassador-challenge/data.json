@@ -1,16 +1,16 @@
 {
   "meta": {
-    "refreshedAt": "2026-09-17T20:03:48+00:00",
+    "refreshedAt": "2026-09-28T10:05:19+00:00",
     "windowStart": "2026-07-23",
-    "windowEnd": "2026-09-13",
+    "windowEnd": "2026-09-25",
     "source": "LevelField promotions analytics, all filters cleared, joined to the Ambassador Challenge sign up form by referral code"
   },
   "kpis": {
     "signedUp": 68,
     "linksIssued": 58,
     "activeSharers": 10,
-    "leads": 27,
-    "leadsOnAmbassadorPromo": 24,
+    "leads": 28,
+    "leadsOnAmbassadorPromo": 28,
     "activations": null
   },
   "inactiveWithLink": 48,
@@ -40,9 +40,9 @@
       "brand": "TriDot",
       "code": "UKKEU8",
       "linkSent": "Yes",
-      "leads": 4,
+      "leads": 5,
       "firstActivity": "2026-07-23",
-      "lastActivity": "2026-08-17",
+      "lastActivity": "2026-09-25",
       "rank": 3
     },
     {
