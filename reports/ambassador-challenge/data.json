@@ -1,20 +1,30 @@
 {
   "meta": {
-    "refreshedAt": "2026-09-28T10:05:19+00:00",
+    "refreshedAt": "2026-10-05T10:03:29+00:00",
     "windowStart": "2026-07-23",
-    "windowEnd": "2026-09-25",
+    "windowEnd": "2026-10-03",
     "source": "LevelField promotions analytics, all filters cleared, joined to the Ambassador Challenge sign up form by referral code"
   },
   "kpis": {
     "signedUp": 68,
     "linksIssued": 58,
     "activeSharers": 10,
-    "leads": 28,
-    "leadsOnAmbassadorPromo": 28,
+    "leads": 31,
+    "leadsOnAmbassadorPromo": 27,
     "activations": null
   },
   "inactiveWithLink": 48,
   "leaderboard": [
+    {
+      "name": "Chris Navin",
+      "brand": "Both",
+      "code": "TD2L3T",
+      "linkSent": "Yes",
+      "leads": 8,
+      "firstActivity": "2026-08-18",
+      "lastActivity": "2026-10-03",
+      "rank": 1
+    },
     {
       "name": "Jack Lucas",
       "brand": "Both",
@@ -23,16 +33,6 @@
       "leads": 8,
       "firstActivity": "2026-08-26",
       "lastActivity": "2026-09-11",
-      "rank": 1
-    },
-    {
-      "name": "Chris Navin",
-      "brand": "Both",
-      "code": "TD2L3T",
-      "linkSent": "Yes",
-      "leads": 6,
-      "firstActivity": "2026-08-18",
-      "lastActivity": "2026-09-08",
       "rank": 2
     },
     {
@@ -50,9 +50,9 @@
       "brand": "TriDot",
       "code": "MBCEC",
       "linkSent": "Yes",
-      "leads": 2,
+      "leads": 3,
       "firstActivity": "2026-08-17",
-      "lastActivity": "2026-09-08",
+      "lastActivity": "2026-10-01",
       "rank": 4
     },
     {
@@ -71,8 +71,8 @@
       "code": "P9XREE",
       "linkSent": "Yes",
       "leads": 1,
-      "firstActivity": "2026-09-08",
-      "lastActivity": "2026-09-08",
+      "firstActivity": "2026-09-07",
+      "lastActivity": "2026-09-07",
       "rank": 6
     },
     {
@@ -111,8 +111,8 @@
       "code": "4V1DI1",
       "linkSent": "Yes",
       "leads": 1,
-      "firstActivity": "2026-08-20",
-      "lastActivity": "2026-08-20",
+      "firstActivity": "2026-08-19",
+      "lastActivity": "2026-08-19",
       "rank": 10
     }
   ]
