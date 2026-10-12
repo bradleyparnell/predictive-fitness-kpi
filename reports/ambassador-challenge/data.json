@@ -1,16 +1,19 @@
 {
   "meta": {
-    "refreshedAt": "2026-10-05T10:03:29+00:00",
+    "refreshedAt": "2026-10-12T13:26:14.560Z",
     "windowStart": "2026-07-23",
-    "windowEnd": "2026-10-03",
-    "source": "LevelField promotions analytics, all filters cleared, joined to the Ambassador Challenge sign up form by referral code"
+    "windowEnd": "2026-10-11",
+    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Oct 11; displayed referrers matched to the saved Count Me In roster",
+    "rosterNote": "Roster remains the saved 68-entry Count Me In snapshot; signups and issued links were not re-pulled.",
+    "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. One previously counted Offer Declined event is excluded. 1 ambassador-offer email capture from a referrer outside the saved roster (Martijn Rentema) is held outside the leaderboard pending roster confirmation.",
+    "matchingMethod": "Displayed referrer name matched case-insensitively to saved roster, removing COACH prefix; codes shown are issued codes from the saved roster."
   },
   "kpis": {
     "signedUp": 68,
     "linksIssued": 58,
     "activeSharers": 10,
-    "leads": 31,
-    "leadsOnAmbassadorPromo": 27,
+    "leads": 32,
+    "leadsOnAmbassadorPromo": 29,
     "activations": null
   },
   "inactiveWithLink": 48,
@@ -20,9 +23,9 @@
       "brand": "Both",
       "code": "TD2L3T",
       "linkSent": "Yes",
-      "leads": 8,
+      "leads": 9,
       "firstActivity": "2026-08-18",
-      "lastActivity": "2026-10-03",
+      "lastActivity": "2026-10-06",
       "rank": 1
     },
     {
@@ -66,6 +69,16 @@
       "rank": 5
     },
     {
+      "name": "Jérôme Streiff",
+      "brand": "TriDot",
+      "code": "LQMVC2",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-08-17",
+      "lastActivity": "2026-08-17",
+      "rank": 6
+    },
+    {
       "name": "Julie Malloy",
       "brand": "RunDot",
       "code": "P9XREE",
@@ -73,16 +86,6 @@
       "leads": 1,
       "firstActivity": "2026-09-07",
       "lastActivity": "2026-09-07",
-      "rank": 6
-    },
-    {
-      "name": "J\u00e9r\u00f4me Streiff",
-      "brand": "TriDot",
-      "code": "LQMVC2",
-      "linkSent": "Yes",
-      "leads": 1,
-      "firstActivity": "2026-08-17",
-      "lastActivity": "2026-08-17",
       "rank": 7
     },
     {

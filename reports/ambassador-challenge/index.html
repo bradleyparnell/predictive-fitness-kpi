@@ -144,8 +144,8 @@
   </div>
   <div class="card">
     <h3>Maturity, and what can be said today</h3>
-    <p>Trials need 14 days to resolve, and ambassador activity runs into mid September. Only the earlier leads have had time to convert, so any activation rate calculated now would understate the program.</p>
-    <p>What is measurable today is reach and participation: links issued, ambassadors sharing, and leads captured. Those figures are complete and verified.</p>
+    <p>Trials need at least 14 days to resolve. Report activation rates by trial-start cohort and leave immature cohorts blank. This page does not yet join captured emails to verified trial starts or paid subscriptions.</p>
+    <p>Email capture counts are refreshed from the portal. Signup and issued-link counts use the saved roster snapshot. Captures are tracked outcomes, not verified trial starts or unique people.</p>
   </div>
 </div>
 
@@ -153,7 +153,7 @@
 
 <div class="callout">
   <h3>Most of the roster has never shared</h3>
-  <p><span id="inactive"></span> ambassadors hold a working link and have produced nothing. Most indicated on the sign up form that they intended to post on Instagram, Facebook, and Strava. The gap is activation and reminder, not recruitment. The top three sharers account for <span id="top3"></span> of all leads, and Jack Lucas generated six of his eight on a single day.</p>
+  <p><span id="inactive"></span> ambassadors have an issued link in the saved roster and no matched email captures. Most indicated on the sign up form that they intended to post on Instagram, Facebook, and Strava. The gap is activation and reminder, not recruitment. The top three sharers account for <span id="top3"></span> of all leads, and Jack Lucas generated six of his eight on a single day.</p>
 </div>
 
 <div class="callout">
@@ -199,10 +199,10 @@ fetch("data.json?v="+Date.now()).then(r=>{ if(!r.ok) throw 0; return r.json(); }
 
   document.getElementById("kpis").innerHTML = [
     ["Signed up", k.signedUp, "Count Me In form", ""],
-    ["Links issued", k.linksIssued, "All matched in LevelField", ""],
+    ["Links issued", k.linksIssued, "Saved roster snapshot", ""],
     ["Active sharers", k.activeSharers, Math.round(100*k.activeSharers/k.linksIssued)+"% of link holders", ""],
     ["Leads captured", k.leads, k.leadsOnAmbassadorPromo+" on ambassador promo codes", "good"],
-    ["Activations", k.activations==null?"Pending":k.activations, "Trials still maturing", "pend"]
+    ["Activations", k.activations==null?"Pending":k.activations, "Attribution not connected", "pend"]
   ].map(([lab,val,note,cls])=>
     '<div class="kpi '+(cls==="pend"?"":cls)+'"><div class="lab">'+lab+'</div><div class="val"'+
     (cls==="pend"?' style="color:var(--muted);font-size:20px;padding-top:8px"':'')+'>'+val+
@@ -247,7 +247,9 @@ fetch("data.json?v="+Date.now()).then(r=>{ if(!r.ok) throw 0; return r.json(); }
     " when asking who is sharing, and "+k.leadsOnAmbassadorPromo+" when asking what the challenge offer produced.";
 
   document.getElementById("foot").innerHTML =
-    "Prepared from "+esc(m.source)+". All "+k.linksIssued+" issued codes matched the tracking system.<br>"+
+    "Prepared from "+esc(m.source)+".<br>"+
+    (m.rosterNote?esc(m.rosterNote)+"<br>":"")+
+    (m.dataNote?esc(m.dataNote)+"<br>":"")+
     "Landing page events are visits that produced a tracked outcome. Views without an outcome are not counted. "+
     "This page measures landing page reach and lead capture only. Ambassador links route to the standard 14 day "+
     "free trial, so checkout events do not apply. Trial starts and paid subscriptions attributable to ambassadors "+
