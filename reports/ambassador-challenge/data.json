@@ -1,19 +1,19 @@
 {
   "meta": {
-    "refreshedAt": "2026-10-12T13:26:14.560Z",
+    "refreshedAt": "2026-10-20T17:57:24.426Z",
     "windowStart": "2026-07-23",
-    "windowEnd": "2026-10-11",
-    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Oct 11; displayed referrers matched to the saved Count Me In roster",
+    "windowEnd": "2026-10-19",
+    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Oct 19; displayed referrers matched to the saved Count Me In roster",
     "rosterNote": "Roster remains the saved 68-entry Count Me In snapshot; signups and issued links were not re-pulled.",
-    "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. One previously counted Offer Declined event is excluded. 1 ambassador-offer email capture from a referrer outside the saved roster (Martijn Rentema) is held outside the leaderboard pending roster confirmation.",
+    "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. Offer Declined events are excluded. 2 ambassador-offer email capture(s) from referrers outside the saved roster (Martijn Rentema) held outside the leaderboard pending roster confirmation.",
     "matchingMethod": "Displayed referrer name matched case-insensitively to saved roster, removing COACH prefix; codes shown are issued codes from the saved roster."
   },
   "kpis": {
     "signedUp": 68,
     "linksIssued": 58,
     "activeSharers": 10,
-    "leads": 32,
-    "leadsOnAmbassadorPromo": 29,
+    "leads": 34,
+    "leadsOnAmbassadorPromo": 30,
     "activations": null
   },
   "inactiveWithLink": 48,
@@ -23,9 +23,9 @@
       "brand": "Both",
       "code": "TD2L3T",
       "linkSent": "Yes",
-      "leads": 9,
+      "leads": 10,
       "firstActivity": "2026-08-18",
-      "lastActivity": "2026-10-06",
+      "lastActivity": "2026-10-14",
       "rank": 1
     },
     {
@@ -59,6 +59,16 @@
       "rank": 4
     },
     {
+      "name": "Julie Malloy",
+      "brand": "RunDot",
+      "code": "P9XREE",
+      "linkSent": "Yes",
+      "leads": 2,
+      "firstActivity": "2026-09-07",
+      "lastActivity": "2026-10-16",
+      "rank": 5
+    },
+    {
       "name": "Marisa Fortin",
       "brand": "TriDot",
       "code": "3VYL3",
@@ -66,7 +76,7 @@
       "leads": 2,
       "firstActivity": "2026-08-30",
       "lastActivity": "2026-09-03",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Jérôme Streiff",
@@ -76,16 +86,6 @@
       "leads": 1,
       "firstActivity": "2026-08-17",
       "lastActivity": "2026-08-17",
-      "rank": 6
-    },
-    {
-      "name": "Julie Malloy",
-      "brand": "RunDot",
-      "code": "P9XREE",
-      "linkSent": "Yes",
-      "leads": 1,
-      "firstActivity": "2026-09-07",
-      "lastActivity": "2026-09-07",
       "rank": 7
     },
     {
