@@ -1,22 +1,22 @@
 {
   "meta": {
-    "refreshedAt": "2026-10-20T17:57:24.426Z",
+    "refreshedAt": "2026-10-26T10:02:52.103Z",
     "windowStart": "2026-07-23",
-    "windowEnd": "2026-10-19",
-    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Oct 19; displayed referrers matched to the saved Count Me In roster",
+    "windowEnd": "2026-10-25",
+    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Oct 25; displayed referrers matched to the saved Count Me In roster",
     "rosterNote": "Roster remains the saved 68-entry Count Me In snapshot; signups and issued links were not re-pulled.",
-    "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. Offer Declined events are excluded. 2 ambassador-offer email capture(s) from referrers outside the saved roster (Martijn Rentema) held outside the leaderboard pending roster confirmation.",
+    "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. Offer Declined events are excluded. 3 ambassador-offer email capture(s) from referrers outside the saved roster (BARBARA CAMPBELL, Martijn Rentema) held outside the leaderboard pending roster confirmation.",
     "matchingMethod": "Displayed referrer name matched case-insensitively to saved roster, removing COACH prefix; codes shown are issued codes from the saved roster."
   },
   "kpis": {
     "signedUp": 68,
     "linksIssued": 58,
-    "activeSharers": 10,
-    "leads": 34,
-    "leadsOnAmbassadorPromo": 30,
+    "activeSharers": 12,
+    "leads": 36,
+    "leadsOnAmbassadorPromo": 32,
     "activations": null
   },
-  "inactiveWithLink": 48,
+  "inactiveWithLink": 46,
   "leaderboard": [
     {
       "name": "Chris Navin",
@@ -79,6 +79,26 @@
       "rank": 6
     },
     {
+      "name": "Eileen Stoufflet",
+      "brand": "TriDot",
+      "code": "H2R1SN",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-10-25",
+      "lastActivity": "2026-10-25",
+      "rank": 7
+    },
+    {
+      "name": "Emiliana Torres-Arteaga",
+      "brand": "RunDot",
+      "code": "YIMD2J",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-10-20",
+      "lastActivity": "2026-10-20",
+      "rank": 8
+    },
+    {
       "name": "Jérôme Streiff",
       "brand": "TriDot",
       "code": "LQMVC2",
@@ -86,7 +106,7 @@
       "leads": 1,
       "firstActivity": "2026-08-17",
       "lastActivity": "2026-08-17",
-      "rank": 7
+      "rank": 9
     },
     {
       "name": "Lindsay Pappas",
@@ -96,7 +116,7 @@
       "leads": 1,
       "firstActivity": "2026-08-17",
       "lastActivity": "2026-08-17",
-      "rank": 8
+      "rank": 10
     },
     {
       "name": "Nuno Aguiar",
@@ -106,7 +126,7 @@
       "leads": 1,
       "firstActivity": "2026-09-13",
       "lastActivity": "2026-09-13",
-      "rank": 9
+      "rank": 11
     },
     {
       "name": "Walter Cahall",
@@ -116,7 +136,7 @@
       "leads": 1,
       "firstActivity": "2026-08-19",
       "lastActivity": "2026-08-19",
-      "rank": 10
+      "rank": 12
     }
   ]
 }
