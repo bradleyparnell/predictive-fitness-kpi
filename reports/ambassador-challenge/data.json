@@ -1,9 +1,9 @@
 {
   "meta": {
-    "refreshedAt": "2026-10-26T10:02:52.103Z",
+    "refreshedAt": "2026-11-02T11:02:02.105Z",
     "windowStart": "2026-07-23",
-    "windowEnd": "2026-10-25",
-    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Oct 25; displayed referrers matched to the saved Count Me In roster",
+    "windowEnd": "2026-11-01",
+    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Nov 1; displayed referrers matched to the saved Count Me In roster",
     "rosterNote": "Roster remains the saved 68-entry Count Me In snapshot; signups and issued links were not re-pulled.",
     "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. Offer Declined events are excluded. 3 ambassador-offer email capture(s) from referrers outside the saved roster (BARBARA CAMPBELL, Martijn Rentema) held outside the leaderboard pending roster confirmation.",
     "matchingMethod": "Displayed referrer name matched case-insensitively to saved roster, removing COACH prefix; codes shown are issued codes from the saved roster."
@@ -12,8 +12,8 @@
     "signedUp": 68,
     "linksIssued": 58,
     "activeSharers": 12,
-    "leads": 36,
-    "leadsOnAmbassadorPromo": 32,
+    "leads": 39,
+    "leadsOnAmbassadorPromo": 35,
     "activations": null
   },
   "inactiveWithLink": 46,
@@ -43,9 +43,9 @@
       "brand": "TriDot",
       "code": "UKKEU8",
       "linkSent": "Yes",
-      "leads": 5,
+      "leads": 6,
       "firstActivity": "2026-07-23",
-      "lastActivity": "2026-09-25",
+      "lastActivity": "2026-10-28",
       "rank": 3
     },
     {
@@ -59,6 +59,26 @@
       "rank": 4
     },
     {
+      "name": "Eileen Stoufflet",
+      "brand": "TriDot",
+      "code": "H2R1SN",
+      "linkSent": "Yes",
+      "leads": 2,
+      "firstActivity": "2026-10-25",
+      "lastActivity": "2026-10-27",
+      "rank": 5
+    },
+    {
+      "name": "Emiliana Torres-Arteaga",
+      "brand": "RunDot",
+      "code": "YIMD2J",
+      "linkSent": "Yes",
+      "leads": 2,
+      "firstActivity": "2026-10-20",
+      "lastActivity": "2026-10-29",
+      "rank": 6
+    },
+    {
       "name": "Julie Malloy",
       "brand": "RunDot",
       "code": "P9XREE",
@@ -66,7 +86,7 @@
       "leads": 2,
       "firstActivity": "2026-09-07",
       "lastActivity": "2026-10-16",
-      "rank": 5
+      "rank": 7
     },
     {
       "name": "Marisa Fortin",
@@ -76,26 +96,6 @@
       "leads": 2,
       "firstActivity": "2026-08-30",
       "lastActivity": "2026-09-03",
-      "rank": 6
-    },
-    {
-      "name": "Eileen Stoufflet",
-      "brand": "TriDot",
-      "code": "H2R1SN",
-      "linkSent": "Yes",
-      "leads": 1,
-      "firstActivity": "2026-10-25",
-      "lastActivity": "2026-10-25",
-      "rank": 7
-    },
-    {
-      "name": "Emiliana Torres-Arteaga",
-      "brand": "RunDot",
-      "code": "YIMD2J",
-      "linkSent": "Yes",
-      "leads": 1,
-      "firstActivity": "2026-10-20",
-      "lastActivity": "2026-10-20",
       "rank": 8
     },
     {
