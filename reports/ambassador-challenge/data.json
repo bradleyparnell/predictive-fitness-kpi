@@ -1,22 +1,22 @@
 {
   "meta": {
-    "refreshedAt": "2026-11-02T11:02:02.105Z",
+    "refreshedAt": "2026-11-09T11:01:54.365Z",
     "windowStart": "2026-07-23",
-    "windowEnd": "2026-11-01",
-    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Nov 1; displayed referrers matched to the saved Count Me In roster",
+    "windowEnd": "2026-11-08",
+    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Nov 8; displayed referrers matched to the saved Count Me In roster",
     "rosterNote": "Roster remains the saved 68-entry Count Me In snapshot; signups and issued links were not re-pulled.",
-    "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. Offer Declined events are excluded. 3 ambassador-offer email capture(s) from referrers outside the saved roster (BARBARA CAMPBELL, Martijn Rentema) held outside the leaderboard pending roster confirmation.",
+    "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. Offer Declined events are excluded. 4 ambassador-offer email capture(s) from referrers outside the saved roster (Leanne Pettigrew, BARBARA CAMPBELL, Martijn Rentema) held outside the leaderboard pending roster confirmation.",
     "matchingMethod": "Displayed referrer name matched case-insensitively to saved roster, removing COACH prefix; codes shown are issued codes from the saved roster."
   },
   "kpis": {
     "signedUp": 68,
     "linksIssued": 58,
-    "activeSharers": 12,
-    "leads": 39,
-    "leadsOnAmbassadorPromo": 35,
+    "activeSharers": 13,
+    "leads": 40,
+    "leadsOnAmbassadorPromo": 36,
     "activations": null
   },
-  "inactiveWithLink": 46,
+  "inactiveWithLink": 45,
   "leaderboard": [
     {
       "name": "Chris Navin",
@@ -119,6 +119,16 @@
       "rank": 10
     },
     {
+      "name": "Lindsey Seynhaeve",
+      "brand": "TriDot",
+      "code": "PWAJTT",
+      "linkSent": "Yes",
+      "leads": 1,
+      "firstActivity": "2026-11-04",
+      "lastActivity": "2026-11-04",
+      "rank": 11
+    },
+    {
       "name": "Nuno Aguiar",
       "brand": "RunDot",
       "code": "DNFCZJ",
@@ -126,7 +136,7 @@
       "leads": 1,
       "firstActivity": "2026-09-13",
       "lastActivity": "2026-09-13",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Walter Cahall",
@@ -136,7 +146,7 @@
       "leads": 1,
       "firstActivity": "2026-08-19",
       "lastActivity": "2026-08-19",
-      "rank": 12
+      "rank": 13
     }
   ]
 }
