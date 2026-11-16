@@ -1,9 +1,9 @@
 {
   "meta": {
-    "refreshedAt": "2026-11-09T11:01:54.365Z",
+    "refreshedAt": "2026-11-16T11:02:03.594Z",
     "windowStart": "2026-07-23",
-    "windowEnd": "2026-11-08",
-    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Nov 8; displayed referrers matched to the saved Count Me In roster",
+    "windowEnd": "2026-11-15",
+    "source": "Predictive Fitness portal promotions analytics, all brands/types/outcomes, Jul 23 to Nov 15; displayed referrers matched to the saved Count Me In roster",
     "rosterNote": "Roster remains the saved 68-entry Count Me In snapshot; signups and issued links were not re-pulled.",
     "dataNote": "Only Email Captured outcomes count as leads, not unique people, trial starts, or paid subscriptions. Offer Declined events are excluded. 4 ambassador-offer email capture(s) from referrers outside the saved roster (Leanne Pettigrew, BARBARA CAMPBELL, Martijn Rentema) held outside the leaderboard pending roster confirmation.",
     "matchingMethod": "Displayed referrer name matched case-insensitively to saved roster, removing COACH prefix; codes shown are issued codes from the saved roster."
@@ -12,8 +12,8 @@
     "signedUp": 68,
     "linksIssued": 58,
     "activeSharers": 13,
-    "leads": 40,
-    "leadsOnAmbassadorPromo": 36,
+    "leads": 41,
+    "leadsOnAmbassadorPromo": 37,
     "activations": null
   },
   "inactiveWithLink": 45,
@@ -23,9 +23,9 @@
       "brand": "Both",
       "code": "TD2L3T",
       "linkSent": "Yes",
-      "leads": 10,
+      "leads": 11,
       "firstActivity": "2026-08-18",
-      "lastActivity": "2026-10-14",
+      "lastActivity": "2026-11-11",
       "rank": 1
     },
     {
